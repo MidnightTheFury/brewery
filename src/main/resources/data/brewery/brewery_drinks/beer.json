@@ -4,21 +4,21 @@
     "best_cooking_time": 480.0,
     "best_barrel_age": 4200.0,
     "best_barrel_type": [
-      "oak"
+      "mangrove"
     ]
   },
   "cooking_quality_multiplier": "cos(clamp((age / 60 - 8.0) * 0.3333333333333333, -2, 2))",
   "ingredients": [
     {
       "items": [
-        "minecraft:wheat"
+        "minecraft:carot"
       ],
-      "count": 6
+      "count": 8
     }
   ],
   "barrel_definitions": [
     {
-      "type": "minecraft:oak",
+      "type": "minecraft:mangrove",
       "quality_value": "quality",
       "reveal_time": 300
     },
@@ -45,7 +45,7 @@
     }
   ],
   "name": {
-    "translate": "drinktype.brewery.beer"
+    "translate": "drinktype.brewery.Red beer"
   },
-  "color": "#FFD333"
+  "color": "#FF4040"
 }
